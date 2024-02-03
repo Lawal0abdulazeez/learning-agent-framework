@@ -1,5 +1,9 @@
 from autogen import Autogen
 
+from autogen import Autogen
+
+
+
 def generate_explanation(key_points):
     # Initialize the Autogen model
     model = Autogen()
@@ -18,7 +22,8 @@ def generate_explanation(key_points):
 
 if __name__ == "__main__":
     # Replace 'researcher_output' with the actual output from the Researcher Agent
-    researcher_output = 'researcher_output'
+    #researcher_output = 'researcher_output'
+    researcher_output = 'powerbi'
     result = generate_explanation(researcher_output)
 
     # Print or save the refined explanation

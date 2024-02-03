@@ -1,4 +1,6 @@
-from autogen import Autogen
+from autogen.autogen import Autogen  # Import Autogen from the correct module
+
+
 
 def generate_ideas(subject):
     # Initialize the Autogen model
